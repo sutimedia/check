@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Meta Tags for SEO -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Welcome to Suame Technical Institute, a leading institution in technical education. We offer innovative programs in engineering, IT, and vocational studies.">
+<meta name="author" content="Suame Technical Institute">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Suame Technical Institute (Su.T.I)">
+<meta property="og:description" content="Explore Suame Technical Institute's innovative programs and join a community of future leaders in technical education.">
+<meta property="og:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+<meta property="og:url" content="https://www.suti.edu.gh">
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Suame Technical Institute (Su.T.I)">
+<meta name="twitter:description" content="Suame Technical Institute offers a wide range of programs to empower students in their careers. Join us for technical excellence.">
+<meta name="twitter:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+-->
+<!-- Social Media Links 
+<meta name="twitter:site" content="@suametech">
+<meta name="twitter:creator" content="@suametech">
+ -->   
+<!-- Title of the Page -->
+<title>Suame Technical Institute | Empowering Future Leaders</title>
+
+<!-- Structured Data for SEO (Schema Markup) 
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "EducationalOccupationalOrganization",
+        "name": "Suame Technical Institute",
+        "url": "https://www.suti.edu.gh",
+        "logo": "https://www.suti.edu.gh/assets/img/logo.jpg",
+        "sameAs": [
+            "https://www.instagram.com/suametechnicalinstitute_",
+            "https://www.facebook.com/suameTech",
+            "https://www.tiktok.com/@suametechnicalinstitute?lang=en",
+            "https://www.youtube.com/@suametechnicalinstitute"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+233-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "GH",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Your Street Address",
+            "addressLocality": "Suame",
+            "addressRegion": "Ashanti",
+            "postalCode": "0000",
+            "addressCountry": "Ghana"
+        }
+    }
+</script>
+-->
+<!-- Page Speed Optimization -->
+<link rel="stylesheet" href="styles.min.css"> <!-- Minified CSS -->
+<script src="script.min.js" defer></script> <!-- Minified JS with defer attribute -->
+<link rel="preload" href="https://www.suti.edu.gh/assets/img/logo.jpg" as="image">
+
+<!-- Mobile Optimization -->
+<meta name="theme-color" content="#fdc93b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Sitemap -->
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/img/logo/icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../../assets/img/logo/icon.png">
+    
+    <!-- Bootstrap Core CSS for Responsive Layout -->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Font Awesome CSS for Icons -->
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Flexslider CSS for Slideshows (if used) -->
+    <link href="V/assets/css/flexslider.css" rel="stylesheet" />
+
+    <!-- Custom Stylesheet for Additional Customization -->
+    <link href="../../assets/css/style.css" rel="stylesheet" />
+<link href="../../assets/css/w3.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <style>
+         /* General Styling */
+         body {
+            font-family: Arial, sans-serif; 
+        }
+        .header-line {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content-section {
+            margin-top: 40px;
+        }
+        .section-title {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .testimonial-text {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        /* Styling for bullet points */
+        .list-unstyled .bullet {
+            margin-right: 10px;
+            font-size: 1.5em;
+            color: #007bff;
+        }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .intro-text {
+                text-align: center;
+            }
+            .intro-image {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        .slideshow-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .slides-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (Responsive & Interactive) -->
+    <div class="navbar custom-shadow navbar-inverse navbar-fixed-top" id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Toggle Button for Mobile View (Hamburger Menu) -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <!-- Logo Section -->
+                 <a class="navbar-brand" href="#"><img class="logo-custom" src="../../assets/img/logo/logo-1.jpg" alt="SuT.I Logo" /></a>
+            </div>
+            
+            <!-- Collapsible Menu for Navigation Links -->
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Home Link -->
+                    <li><a class="nav-link" href="../../index.html">HOME</a></li>
+                    <!-- About Us Page Link -->
+                    <li><a class="nav-link" href="../../about.html">ABOUT US</a></li>
+                    <!-- Contact Section Link -->
+                    <li><a class="nav-link" href="../../contact.html">CONTACT</a></li>
+                    <!-- Courses Section Link -->
+                    <li><a class="nav-link" href="../../course.html">COURSES</a></li>
+                    <!-- Enrollment Section Link -->
+                    <li><a class="nav-link" href="../../enrollment.html">ENROLLMENT</a></li>
+                    <!-- Dropdown Menu for Additional Links -->
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
+                        <ul class="dropdown-menu">
+                            <!-- Gallery Page Link -->
+                            <!-- <li><a class="dropdown-item" href="../more/gallery.html">GALLERY</a></li> -->
+                            <!-- Staff Information Link -->
+                            <li><a class="dropdown-item" href="../staff.html">STAFF</a></li>
+                            <!-- News Section Link -->
+                            <li><a class="dropdown-item" href="../blog.html">NEWS</a></li>
+                             <!-- Gallery Page Link -->
+                             <li><a class="dropdown-item" href="../staffsfiles/bod.html">BOARD OF DIRECTORS</a></li>
+                             <!-- Staff Information Link -->
+                             <!-- News Section Link -->
+                             <li><a class="dropdown-item" href="../staffsfiles/src.html">SRC COMMITTEE</a></li>
+                             <li><a class="dropdown-item" href="../staffsfiles/Studentbody.html">SCHOOL GALLERY</a></li>
+                             <!-- News Section Link -->
+                             <!-- <li><a class="dropdown-item" href="../more/staffsfiles/modern.html">WORKSHOPS</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br><br>
+    <main class="container">
+      <h1 class="display- fst-italic">Prefect Handing Over Ceremony for the 2024/2025 Academic Year at Suame Technical Institute</h1>
+    <div class="row g-5">
+    <div class="col-md-8">
+      <article class="blog-post">
+        <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+          <div class="card">
+            <img class="" src="../../assets/img/blog/Prefects Handing Over Ceremony for 2024 2025 academic year held at Suame Technical Institute.jpg" style="width:100%" alt="description">
+          </div>
+        </div>
+      </div>
+      </article>
+
+
+    </div>
+
+   
+    <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+           <!-- Posts -->
+    <div class="w3-card w3-margin">
+      <div class="w3-container w3-padding">
+        <h4>Popular Posts</h4>
+      </div>
+      <ul class="w3-ul w3-hoverable w3-white">
+        <hr>
+      <li class="w3-padding-16">
+          <div class="row mb-2">
+            <div class="col-md-4 themed-grid-col">
+                <img  src="../../assets/img/blog/sub/in-house fire safety training.jpg" alt="Image" class="w3-left " style="width:100px;">
+            </div>
+            <div class="col-md-8 themed-grid-col">
+                <a href="Fire Safety Training for Staff and Security Personnel at Suame Technical Institute.html" class="stretched-link">
+                <p class="card-text mb-auto">Fire Safety Training for Staff and Security Personnel at Suame Technical Institute</p>
+              </a>
+            </div>
+          </div>
+      </li>
+      <li class="w3-padding-16">
+        <div class="row mb-2">
+          <div class="col-md-4 themed-grid-col">
+              <img  src="../../assets/img/blog/sub/grand durb 241.jpg" alt="Image" class="w3-left " style="width:100px;">
+          </div>
+          <div class="col-md-8 themed-grid-col">
+              <a href="Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute.html" class="stretched-link">
+              <p class="card-text mb-auto">Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute</p>
+            </a>
+          </div>
+        </div>
+    </li>
+    <hr>
+    <li class="w3-padding-16">
+        <div class="row mb-2">
+          <div class="col-md-4 themed-grid-col">
+              <img  src="../../assets/img/blog/sub/donation pad 2402.jpg" alt="Image" class="w3-left " style="width:100px;">
+          </div>
+          <div class="col-md-8 themed-grid-col">
+              <a href="Mr. Aryeetey’s Donation of Sanitary Pads to Suame Technical Institute on World Menstrual Hygiene Day .html" class="stretched-link">
+              <p class="card-text mb-auto">Mr. Aryeetey’s Donation of Sanitary Pads to Suame Technical Institute on World Menstrual Hygiene Day </p>
+            </a>
+          </div>
+        </div>
+    </li>
+    <hr>
+      <li class="w3-padding-16">
+          <div class="row mb-2">
+            <div class="col-md-4 themed-grid-col">
+                <img  src="../../assets/img/blog/sub/handing over 242.jpg" alt="Image" class="w3-left " style="width:100px;">
+            </div>
+            <div class="col-md-8 themed-grid-col">
+                <a href="Prefect Handing Over Ceremony for the 2024_2025 Academic Year at Suame Technical Institute.html" class="stretched-link">
+                <p class="card-text mb-auto">Prefect Handing Over Ceremony for the 2024_2025 Academic Year at Suame Technical Institute</p>
+              </a>
+            </div>
+          </div>
+      </li>
+      <hr>
+      </ul>
+    </div>
+    <hr> 
+      </div>
+      </div>
+      <br>
+      <br>
+  <article class="blog-post">
+    <p class="blog-post-meta">May, 2024</p>
+
+    <p>The prefect handing over ceremony is a significant event at Suame Technical Institute, marking the transition of leadership and the continuation of student governance. As we approach the 2024/2025 academic year, this ceremony symbolizes not just the change of guard but also the values of leadership, responsibility, and community spirit that our institution upholds.
+<br>
+       <h4>Significance of the Ceremony</h4> 
+        <h5> The handing over ceremony serves several important purposes:</h5>
+        <br>
+        
+        1. Transition of Leadership: It provides a formal platform for the outgoing prefect to pass on responsibilities to the newly elected prefect. This transition is crucial for maintaining continuity in leadership and ensuring that the incoming prefect is well-prepared for their role.
+        
+        <br>
+        2. Acknowledgment of Contributions: The ceremony offers an opportunity to recognize the hard work and dedication of the outgoing prefect and their team. It’s a moment to celebrate their achievements and contributions to the school community.
+        
+        <br>
+        3. Inspiration for New Leaders: For the new prefect, the ceremony is an occasion to share their vision and goals for the upcoming academic year. It inspires fellow students to engage and support their new leaders in fulfilling their duties.
+        
+        <br>
+        4. Strengthening School Community: The event fosters a sense of unity among students, staff, and administration. It brings everyone together to celebrate leadership and commitment to the values of Suame Technical Institute.
+        <br>
+        
+        <h4>Ceremony Program</h4>
+        <h5> The prefect handing over ceremony typically includes several key elements:
+        </h5>
+        <br>
+       
+        1. Opening Remarks: The ceremony will commence with a welcome address from the SRC President, highlighting the significance of the event and the importance of student leadership within the school.
+        
+        <br>
+        2. Recognition of the Outgoing Prefect: The outgoing prefect will be invited to reflect on their tenure, sharing experiences, challenges, and successes. This segment allows them to express gratitude to their peers and mentors for their support.
+        <br>
+        
+        3. Introduction of the Incoming Prefect: The newly elected prefect will be formally introduced. This includes a brief background on their achievements and qualifications, setting the stage for their leadership.
+        
+        <br>
+        4. Handing Over of Responsibilities: A symbolic passing of responsibilities will take place. The outgoing prefect may present the new prefect with the school’s prefect badge, a document outlining duties, and any relevant materials.
+        <br>
+        
+        5. Speech by the Incoming Prefect: The new prefect will have the opportunity to address the audience, sharing their vision, goals, and plans for the year ahead. This speech is pivotal in setting the tone for their leadership.
+        
+        <br>
+        6. Closing Remarks: The ceremony will conclude with closing remarks from a faculty member, emphasizing the importance of student leadership and encouraging all students to support their new prefect.
+        
+        <h4>Celebrating Leadership</h4>
+        
+        
+        <br>
+        The prefect handing over ceremony is not only a formal event but also a celebration of student leadership and commitment. It provides an opportunity for the entire Suame Technical Institute community to come together, fostering a spirit of collaboration and support for the incoming leadership.
+        <br>
+        
+        <h4>Looking Ahead</h4>
+        <br>
+        As we transition into the 2024/2025 academic year, the prefect handing over ceremony sets the foundation for a new chapter in student governance. It is a reminder of the critical role that students play in shaping the culture and values of our institution.
+        <br>
+        In conclusion, we look forward to a memorable and impactful handing over ceremony that honors the contributions of the outgoing prefect while welcoming the new prefect with open arms. Together, let us embrace the spirit of leadership and strive for excellence in the coming year at Suame Technical Institute.</p>
+    
+  </article>
+  </div>
+
+</main>
+
+
+<br>
+<!-- Footer -->
+<div id="footer" style="background-color:black ;">
+  <br> 
+<div class="w3-container">
+  <div class="w3-row">
+    <div class="w3-container w3-third">
+      <h5 class=" subtitle text-center">General</h5>
+      <p class="text-center"><a class="nav-link" href="../../index.html">Home</a></p>
+      <p class="text-center"><a class="nav-link" href="../about.html">About</a></p>
+      <p class="text-center"><a class="nav-link" href="../../contact.html">Contact</a></p>
+      <p class="text-center"><a class="nav-link" href="../../course.html">Courese</a></p>
+      <p class="text-center"><a class="nav-link" href="../../enrollment.html">Enrollment</a></p>
+    </div>
+    <div class="w3-container w3-third">
+      <h5 class=" subtitle text-center">Check Out</h5>
+      <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/bod.html">Board of Directors</a></p>
+      <p class="text-center"><a class="nav-link" href="../../more/staff.html">Staffs</a></p>
+      <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/src.html">SRC Executives</a></p>
+      <!-- <p class="text-center"><a class="nav-link" href="../../more/gallery.html">Gallery</a></p> -->
+      <!-- <p class="text-center"><a class="nav-link" href="../../more/blog.html">Current News</a></p> -->
+    </div>
+    <div class="w3-container w3-third">
+      <h5 class=" subtitle text-center">More</h5>
+      <!-- <p class="text-center"><a class="nav-link" href="../../about.html#featured-3">Features</a></p> -->
+      <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/affiliation.html">Affiliations</a></p>
+      <!-- <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/modern.html">Modern Workshops</a></p> -->
+      <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/Studentbody.html">Students Body</a></p>
+      <p class="text-center"><a class="nav-link" href="../../index.html"></a></p>
+    </div>
+  </div>
+</div>
+    <!-- CONTACT SECTION END-->
+        &copy Su.T.U.com | All Rights Reserved |  <a href="https://advancetechnologyghana.00webhostapp.com" style="color: #fff" target="_blank">Design by : A-Techgh</a>
+  </div>
+  
+<!-- Bootstrap JS -->
+<script src="../../assets/js/popper.min.js"></script>
+<script src="../../assets/js/jquery-1.10.2.js"></script>
+<!--  Core Bootstrap Script -->
+<script src="../../assets/js/bootstrap.js"></script>
+<!--  Flexslider Scripts --> 
+     <script src="/assets/js/jquery.flexslider.js"></script>
+ <!--  Scrolling Reveal Script -->
+<script src="../../assets/js/scrollReveal.js"></script>
+<!--  Scroll Scripts --> 
+<script src="../../assets/js/jquery.easing.min.js"></script>
+<!--  Custom Scripts --> 
+     <script src="../../assets/js/custom.js"></script>
+<script src="../../assets/js/swiper-bundle.min.js"></script>
+
+<!-- Swiper Initialization -->
+<!-- Custom JavaScript for Slideshow -->
+<script>
+    let currentIndex = 0;
+
+    // Change slide automatically every 5 seconds
+    const autoSlideInterval = 10000;
+    
+    function changeSlide(direction = -1) {
+        const slides = document.querySelectorAll('.slide');
+        const slidesWrapper = document.querySelector('.slides-wrapper');
+        const totalSlides = slides.length;
+    
+        currentIndex += direction;
+    
+        // Loop slides
+        if (currentIndex >= totalSlides) {
+            currentIndex = 0;
+        } else if (currentIndex < 0) {
+            currentIndex = totalSlides - 1;
+        }
+    
+        const translateX = -currentIndex * 100;
+        slidesWrapper.style.transform = `translateX(${translateX}%)`;
+    }
+    
+    // Set up automatic slide change
+    setInterval(() => {
+        changeSlide();
+    }, autoSlideInterval);
+    
+    // Optional: Reset the interval when a navigation button is clicked
+    document.querySelector('.prev').addEventListener('click', () => {
+        changeSlide(-1);
+        resetAutoSlide();
+    });
+    
+    document.querySelector('.next').addEventListener('click', () => {
+        changeSlide(1);
+        resetAutoSlide();
+    });
+    
+    function resetAutoSlide() {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            changeSlide();
+        }, autoSlideInterval);
+    }
+    
+    // Initialize autoSlide variable for resetting
+    let autoSlide = setInterval(() => {
+        changeSlide();
+    }, autoSlideInterval);
+
+</script>
+</body>
+</html>

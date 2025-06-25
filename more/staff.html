@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Meta Tags for SEO -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Welcome to Suame Technical Institute, a leading institution in technical education. We offer innovative programs in engineering, IT, and vocational studies.">
+<meta name="author" content="Suame Technical Institute">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Suame Technical Institute (Su.T.I)">
+<meta property="og:description" content="Explore Suame Technical Institute's innovative programs and join a community of future leaders in technical education.">
+<meta property="og:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+<meta property="og:url" content="https://www.suti.edu.gh">
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Suame Technical Institute (Su.T.I)">
+<meta name="twitter:description" content="Suame Technical Institute offers a wide range of programs to empower students in their careers. Join us for technical excellence.">
+<meta name="twitter:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+-->
+<!-- Social Media Links 
+<meta name="twitter:site" content="@suametech">
+<meta name="twitter:creator" content="@suametech">
+ -->   
+<!-- Title of the Page -->
+<title>Suame Technical Institute | STAFFS</title>
+
+<!-- Structured Data for SEO (Schema Markup) 
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "EducationalOccupationalOrganization",
+        "name": "Suame Technical Institute",
+        "url": "https://www.suti.edu.gh",
+        "logo": "https://www.suti.edu.gh/assets/img/logo.jpg",
+        "sameAs": [
+            "https://www.instagram.com/suametechnicalinstitute_",
+            "https://www.facebook.com/suameTech",
+            "https://www.tiktok.com/@suametechnicalinstitute?lang=en",
+            "https://www.youtube.com/@suametechnicalinstitute"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+233-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "GH",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Your Street Address",
+            "addressLocality": "Suame",
+            "addressRegion": "Ashanti",
+            "postalCode": "0000",
+            "addressCountry": "Ghana"
+        }
+    }
+</script>
+-->
+<!-- Page Speed Optimization -->
+<link rel="stylesheet" href="styles.min.css"> <!-- Minified CSS -->
+<script src="script.min.js" defer></script> <!-- Minified JS with defer attribute -->
+<link rel="preload" href="https://www.suti.edu.gh/assets/img/logo.jpg" as="image">
+
+<!-- Mobile Optimization -->
+<meta name="theme-color" content="#fdc93b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Sitemap -->
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/img/logo/icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/logo/icon.png">
+    
+    <!-- Bootstrap Core CSS for Responsive Layout -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Font Awesome CSS for Icons -->
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Flexslider CSS for Slideshows (if used) -->
+    <link href="../assets/css/flexslider.css" rel="stylesheet" />
+
+    <!-- Custom Stylesheet for Additional Customization -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/w3.css" rel="stylesheet" />
+    <link href="staff.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <style>
+         /* General Styling */
+         body {
+            font-family: Arial, sans-serif; 
+        }
+        .header-line {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content-section {
+            margin-top: 40px;
+        }
+        .section-title {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .testimonial-text {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        /* Styling for bullet points */
+        .list-unstyled .bullet {
+            margin-right: 10px;
+            font-size: 1.5em;
+            color: #007bff;
+        }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .intro-text {
+                text-align: center;
+            }
+            .intro-image {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        .slideshow-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .slides-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (Responsive & Interactive) -->
+    <div class="navbar custom-shadow navbar-inverse navbar-fixed-top" id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Toggle Button for Mobile View (Hamburger Menu) -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <!-- Logo Section -->
+                 <a class="navbar-brand" href="#"><img class="logo-custom" src="../assets/img/logo/logo-1.jpg" alt="SuT.I Logo" /></a>
+            </div>
+            
+            <!-- Collapsible Menu for Navigation Links -->
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Home Link -->
+                    <li><a class="nav-link" href="../index.html">HOME</a></li>
+                    <!-- About Us Page Link -->
+                    <li><a class="nav-link" href="../about.html">ABOUT US</a></li>
+                    <!-- Contact Section Link -->
+                    <li><a class="nav-link" href="../contact.html">CONTACT</a></li>
+                    <!-- Courses Section Link -->
+                    <li><a class="nav-link" href="../course.html">COURSES</a></li>
+                    <!-- Enrollment Section Link -->
+                    <li><a class="nav-link" href="../enrollment.html">ENROLLMENT</a></li>
+                    <!-- Dropdown Menu for Additional Links -->
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
+                        <ul class="dropdown-menu">
+                            <!-- Gallery Page Link -->
+                            <!-- <li><a class="dropdown-item" href="../more/gallery.html">GALLERY</a></li> -->
+                            <!-- Staff Information Link -->
+                            <li><a class="dropdown-item" href="staff.html">STAFF</a></li>
+                            <!-- News Section Link -->
+                            <li><a class="dropdown-item" href="blog.html">NEWS</a></li>
+                             <!-- Gallery Page Link -->
+                             <li><a class="dropdown-item" href="staffsfiles/bod.html">BOARD OF DIRECTORS</a></li>
+                             <!-- Staff Information Link -->
+                             <!-- News Section Link -->
+                             <li><a class="dropdown-item" href="staffsfiles/src.html">SRC COMMITTEE</a></li>
+                             <li><a class="dropdown-item" href="staffsfiles/Studentbody.html">SCHOOL GALLERY</a></li>
+                             <!-- News Section Link -->
+                             <!-- <li><a class="dropdown-item" href="../more/staffsfiles/modern.html">WORKSHOPS</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-between text-center">
+    <div id="myBtnContainer" class="stick  navbar-fixed-top text-center">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('admin')">Administrative Staffs</button>
+        <button class="btn" onclick="filterSelection('hods')">HODs</button>
+        <button class="btn" onclick="filterSelection('teachinhstaff')">Teaching Staff</button>
+        <button class="btn" onclick="filterSelection('non-teachinhstaff')">Non-Teachinh Staff</button>
+      </div>
+                </nav>
+              </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <main class="edit container py-5 text-center ">
+            <h1 class="header-line text-uppercase text-center subtitle" data-scroll-reveal="enter from the bottom after 0.1s">
+        Members of Staff
+    </h1>
+    <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Ibrahim Abubakar</h5>
+                <p class="card-text text-center">WELDING & FABRICATION</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Williams Addai</h5>
+                <p class="card-text text-center">WELDING & FABRICATION</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Sarfo Konadu Elijah</h5>
+                <p class="card-text text-center">AUTOBODY WORKS</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Masah Abubakar?</h5>
+                <p class="card-text text-center">MOTOR VEHICLE ENGINEERING/SOLAR</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Godwin Atindana Atiah</h5>
+                <p class="card-text text-center">MOTOR VEHICLE ENGINEERING</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Andrews Bentil Oppong</h5>
+                <p class="card-text text-center">MOTOR VEHICLE MECHANICS</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Daniel Ahotoh Bobie</h5>
+                <p class="card-text text-center">MOTOR VEHICLE MECHANICS</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Alfred Akwası Addai</h5>
+                <p class="card-text text-center">HEAVY DUTY MECHANICS</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Suleman Abdul Rahman</h5>
+                <p class="card-text text-center">HEAVY DUTY MECHANICS</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Nana Agyei Opoku Antwi</h5>
+                <p class="card-text text-center">HEAVY DUTY MECHANICS</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Stephen Antwi</h5>
+                <p class="card-text text-center">COMPUTER NETWORKING TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Samuel Osei Nkrumah</h5>
+                <p class="card-text text-center">COMPUTER NETWORKING TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Stephen Okoampa Asare</h5>
+                <p class="card-text text-center">COMPUTER NETWORKING TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Eric Kofi Nyarko Abranoma</h5>
+                <p class="card-text text-center">COMPUTER NETWORKING TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Tuffour Yeboah</h5>
+                <p class="card-text text-center">GENERAL PRINTING</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Prince Adu Owusu</h5>
+                <p class="card-text text-center">GENERAL PRINTING</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Isaac Eshun Brown</h5>
+                <p class="card-text text-center">GENERAL PRINTING</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Winifred Mantey</h5>
+                <p class="card-text text-center">GENERAL PRINTING</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Winifred Oppong Quayson</h5>
+                <p class="card-text text-center">CATERING & HOSPITALITY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Priscilla Amponsah</h5>
+                <p class="card-text text-center">CATERING & HOSPITALITY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Suzzy Wiredu</h5>
+                <p class="card-text text-center">CATERING & HOSPITALITY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Florence Obeng</h5>
+                <p class="card-text text-center">CATERING & HOSPITALITY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Janet Boakye Fosu</h5>
+                <p class="card-text text-center">CATERING & HOSPITALITY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Esther Opoku</h5>
+                <p class="card-text text-center">CATERING & HOSPITALITY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv hods teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Yaw Adutwum</h5>
+                <p class="card-text text-center">GENERICS HOD</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Edem Kofi Nyamasekpor</h5>
+                <p class="card-text text-center">GENERICS (MATHEMATICS)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Muhalsin Ali</h5>
+                <p class="card-text text-center">GENERICS (MATHEMATICS)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Abdul Lateef Sadick</h5>
+                <p class="card-text text-center">GENERICS (MATHEMATICS)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Isaac Amoah</h5>
+                <p class="card-text text-center">GENERICS (MATHEMATICS)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Edward Boateng</h5>
+                <p class="card-text text-center">GENERICS (MATHEMATICS)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Evans Manu</h5>
+                <p class="card-text text-center">GENERICS (ENGLISH LANGUAGE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Emmanuel Opoku-Boakye</h5>
+                <p class="card-text text-center">GENERICS (ENGLISH LANGUAGE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Alice Baafuwaa Frimpong</h5>
+                <p class="card-text text-center">GENERICS (ENGLISH LANGUAGE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Bernard Boadu</h5>
+                <p class="card-text text-center">GENERICS (ENGLISH LANGUAGE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Regina Opoku</h5>
+                <p class="card-text text-center">GENERICS (ENGLISH LANGUAGE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Patricia Pinamang</h5>
+                <p class="card-text text-center">GENERICS (EST)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Hannah Adabajo</h5>
+                <p class="card-text text-center">GENERICS (EST)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Ruth Bannor Afriyie</h5>
+                <p class="card-text text-center">GENERICS (EST)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Freeman Gyabi</h5>
+                <p class="card-text text-center">GENERICS (EST)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Emelia Sarpong Appiah</h5>
+                <p class="card-text text-center">GENERICS (SOCIAL STUDIES)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Abigail Amakye-Ansah</h5>
+                <p class="card-text text-center">GENERICS (SOCIAL STUDIES)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Christiana Ampong</h5>
+                <p class="card-text text-center">GENERICS (SOCIAL STUDIES)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Rose Denteh</h5>
+                <p class="card-text text-center">GENERICS (SOCIAL STUDIES)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Mansuratu Yusif</h5>
+                <p class="card-text text-center">GENERICS (SOCIAL STUDIES)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Felicia Owusu</h5>
+                <p class="card-text text-center">GENERICS (SOCIAL STUDIES)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Emmanuel Bobie-Ansah</h5>
+                <p class="card-text text-center">GENERICS (INTERGRATED SCIENCE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Priscilla Asamoah</h5>
+                <p class="card-text text-center">GENERICS (INTERGRATED SCIENCE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Francis Adu</h5>
+                <p class="card-text text-center">GENERICS (INTERGRATED SCIENCE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Linda Osei Bonsu</h5>
+                <p class="card-text text-center">GENERICS (INTERGRATED SCIENCE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Isaac Obeng</h5>
+                <p class="card-text text-center">GENERICS (INTERGRATED SCIENCE)</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Martha Abeka Koomson</h5>
+                <p class="card-text text-center">INFORMATION and COMMUNICATION TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Memuna Aja Sina</h5>
+                <p class="card-text text-center">INFORMATION and COMMUNICATION TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4 filterDiv teachinhstaff">
+        <div class="card">
+            <img class="" src="../assets/img/people/profilepicg.jpg" style="width:100%; max-height: 300px;" alt="description">
+             <div class="card-body">
+                <h5 class="card-title text-center">Linda Obiri-Yeboah</h5>
+                <p class="card-text text-center">INFORMATION and COMMUNICATION TECHNOLOGY</p>
+            </div>
+        </div>
+     </div>
+
+
+
+
+             <div class="col-sm-6 col-lg-4 mb-4 filterDiv">
+                <div class="card">
+                    <img class="" src="../assets/img/people/profilepic.jpg" style="width:100%; max-height: 300px;" alt="description">
+                     <div class="card-body">
+                        <h5 class="card-title text-center"> Staff Name</h5>
+                        <p class="card-text text-center">Subjuct or Position</p>
+                    </div>
+                </div>
+             </div>
+        
+</div>   
+    </main>
+<!-- Footer -->
+<br>
+<!-- Footer -->
+<div id="footer" style="background-color:black ;">
+    <br> 
+  <div class="w3-container">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class=" subtitle text-center">General</h5>
+        <p class="text-center"><a class="nav-link" href="../index.html">Home</a></p>
+        <p class="text-center"><a class="nav-link" href="../about.html">About</a></p>
+        <p class="text-center"><a class="nav-link" href="../contact.html">Contact</a></p>
+        <p class="text-center"><a class="nav-link" href="../course.html">Courese</a></p>
+        <p class="text-center"><a class="nav-link" href="../enrollment.html">Enrollment</a></p>
+      </div>
+      <div class="w3-container w3-third">
+        <h5 class=" subtitle text-center">Check Out</h5>
+        <p class="text-center"><a class="nav-link" href="../more/staffsfiles/bod.html">Board of Directors</a></p>
+        <p class="text-center"><a class="nav-link" href="../more/staff.html">Staffs</a></p>
+        <p class="text-center"><a class="nav-link" href="../more/staffsfiles/src.html">SRC Executives</a></p>
+        <!-- <p class="text-center"><a class="nav-link" href="../more/gallery.html">Gallery</a></p> -->
+        <!-- <p class="text-center"><a class="nav-link" href="../more/blog.html">Current News</a></p> -->
+      </div>
+      <div class="w3-container w3-third">
+        <h5 class=" subtitle text-center">More</h5>
+        <!-- <p class="text-center"><a class="nav-link" href="../about.html#featured-3">Features</a></p> -->
+        <p class="text-center"><a class="nav-link" href="../more/staffsfiles/affiliation.html">Affiliations</a></p>
+        <!-- <p class="text-center"><a class="nav-link" href="../more/staffsfiles/modern.html">Modern Workshops</a></p> -->
+        <p class="text-center"><a class="nav-link" href="../more/staffsfiles/Studentbody.html">Students Body</a></p>
+        <p class="text-center"><a class="nav-link" href="../index.html"></a></p>
+      </div>
+    </div>
+  </div>
+    <!-- CONTACT SECTION END-->
+        &copy Su.T.U.com | All Rights Reserved |  <a href="https://advancetechnologyghana.00webhostapp.com" style="color: #fff" target="_blank">Design by : A-Techgh</a>
+  </div>
+
+<!-- Bootstrap JS -->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<!--  Core Bootstrap Script -->
+<script src="../assets/js/bootstrap.js"></script>
+<!--  Flexslider Scripts --> 
+     <script src="../assets/js/jquery.flexslider.js"></script>
+ <!--  Scrolling Reveal Script -->
+<script src="../assets/js/scrollReveal.js"></script>
+<!--  Scroll Scripts --> 
+<script src="../assets/js/jquery.easing.min.js"></script>
+<!--  Custom Scripts --> 
+     <script src="assets/js/custom.js"></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+
+<!-- Swiper Initialization -->
+<!-- Custom JavaScript for Slideshow -->
+<script>
+    filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}</script>
+</body>
+</html>

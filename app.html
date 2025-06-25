@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SuTI Photos Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .gallery-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 80vh;
+            border: none;
+        }
+        .instructions {
+            background: #e9f7fe;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SuTI Photos Gallery</h1>
+    </div>
+    
+    <div class="gallery-container">
+        <!-- REPLACE THIS WITH YOUR ALBUM LINK -->
+        <iframe src="https://forms.gle/3JiNZ16iM7hR5vKE9" 
+                allowfullscreen 
+                scrolling="no"></iframe>
+    </div>
+    
+    <!-- OPTION 2: FALLBACK SOLUTION -->
+    <script>
+        // Alternative method if iframe is blocked
+        function checkIframeLoad() {
+            const iframe = document.querySelector('iframe');
+            if (!iframe.contentDocument || iframe.contentDocument.body.innerHTML === '') {
+                document.querySelector('.gallery-container').innerHTML = `
+                    <div style="padding: 20px; text-align: center;">
+                        <h3>Embed Blocked - View Album Directly</h3>
+                        <a href="https://forms.gle/3JiNZ16iM7hR5vKE9" 
+                           style="background: #4285f4; color: white; padding: 10px 20px; 
+                                  text-decoration: none; border-radius: 5px;">
+                            Open Google Photos Album
+                        </a>
+                    </div>
+                `;
+            }
+        }
+        window.onload = function() {
+            setTimeout(checkIframeLoad, 2000);
+        };
+    </script>
+</body>
+</html>

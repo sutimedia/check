@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Meta Tags for SEO -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Welcome to Suame Technical Institute, a leading institution in technical education. We offer innovative programs in engineering, IT, and vocational studies.">
+<meta name="author" content="Suame Technical Institute">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Suame Technical Institute (Su.T.I)">
+<meta property="og:description" content="Explore Suame Technical Institute's innovative programs and join a community of future leaders in technical education.">
+<meta property="og:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+<meta property="og:url" content="https://www.suti.edu.gh">
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Suame Technical Institute (Su.T.I)">
+<meta name="twitter:description" content="Suame Technical Institute offers a wide range of programs to empower students in their careers. Join us for technical excellence.">
+<meta name="twitter:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+-->
+<!-- Social Media Links 
+<meta name="twitter:site" content="@suametech">
+<meta name="twitter:creator" content="@suametech">
+ -->   
+<!-- Title of the Page -->
+<title>Suame Technical Institute | BLOG</title>
+
+<!-- Structured Data for SEO (Schema Markup) 
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "EducationalOccupationalOrganization",
+        "name": "Suame Technical Institute",
+        "url": "https://www.suti.edu.gh",
+        "logo": "https://www.suti.edu.gh/assets/img/logo.jpg",
+        "sameAs": [
+            "https://www.instagram.com/suametechnicalinstitute_",
+            "https://www.facebook.com/suameTech",
+            "https://www.tiktok.com/@suametechnicalinstitute?lang=en",
+            "https://www.youtube.com/@suametechnicalinstitute"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+233-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "GH",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Your Street Address",
+            "addressLocality": "Suame",
+            "addressRegion": "Ashanti",
+            "postalCode": "0000",
+            "addressCountry": "Ghana"
+        }
+    }
+</script>
+-->
+<!-- Page Speed Optimization -->
+<link rel="stylesheet" href="styles.min.css"> <!-- Minified CSS -->
+<script src="script.min.js" defer></script> <!-- Minified JS with defer attribute -->
+<link rel="preload" href="https://www.suti.edu.gh/assets/img/logo.jpg" as="image">
+
+<!-- Mobile Optimization -->
+<meta name="theme-color" content="#fdc93b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Sitemap -->
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/img/logo/icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/logo/icon.png">
+    
+    <!-- Bootstrap Core CSS for Responsive Layout -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Font Awesome CSS for Icons -->
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Flexslider CSS for Slideshows (if used) -->
+    <link href="../assets/css/flexslider.css" rel="stylesheet" />
+
+    <!-- Custom Stylesheet for Additional Customization -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+ <link href="../assets/css/w3.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <style>
+         /* General Styling */
+         body {
+            font-family: Arial, sans-serif; 
+        }
+        .header-line {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content-section {
+            margin-top: 40px;
+        }
+        .section-title {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .testimonial-text {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        /* Styling for bullet points */
+        .list-unstyled .bullet {
+            margin-right: 10px;
+            font-size: 1.5em;
+            color: #007bff;
+        }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .intro-text {
+                text-align: center;
+            }
+            .intro-image {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        .slideshow-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .slides-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (Responsive & Interactive) -->
+    <div class="navbar custom-shadow navbar-inverse navbar-fixed-top" id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Toggle Button for Mobile View (Hamburger Menu) -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <!-- Logo Section -->
+                 <a class="navbar-brand" href="#"><img class="logo-custom" src="../assets/img/logo/logo-1.jpg" alt="SuT.I Logo" /></a>
+            </div>
+            
+            <!-- Collapsible Menu for Navigation Links -->
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Home Link -->
+                    <li><a class="nav-link" href="../index.html">HOME</a></li>
+                    <!-- About Us Page Link -->
+                    <li><a class="nav-link" href="../about.html">ABOUT US</a></li>
+                    <!-- Contact Section Link -->
+                    <li><a class="nav-link" href="../contact.html">CONTACT</a></li>
+                    <!-- Courses Section Link -->
+                    <li><a class="nav-link" href="../course.html">COURSES</a></li>
+                    <!-- Enrollment Section Link -->
+                    <li><a class="nav-link" href="../enrollment.html">ENROLLMENT</a></li>
+                    <!-- Dropdown Menu for Additional Links -->
+                    <li class="dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
+                      <ul class="dropdown-menu">
+                          <!-- Gallery Page Link -->
+                          <!-- <li><a class="dropdown-item" href="../more/gallery.html">GALLERY</a></li> -->
+                          <!-- Staff Information Link -->
+                          <li><a class="dropdown-item" href="staff.html">STAFF</a></li>
+                          <!-- News Section Link -->
+                          <li><a class="dropdown-item" href="blog.html">NEWS</a></li>
+                           <!-- Gallery Page Link -->
+                           <li><a class="dropdown-item" href="staffsfiles/bod.html">BOARD OF DIRECTORS</a></li>
+                           <!-- Staff Information Link -->
+                           <!-- News Section Link -->
+                           <li><a class="dropdown-item" href="staffsfiles/src.html">SRC COMMITTEE</a></li>
+                           <li><a class="dropdown-item" href="staffsfiles/Studentbody.html">SCHOOL GALLERY</a></li>
+                           <!-- News Section Link -->
+                           <!-- <li><a class="dropdown-item" href="../more/staffsfiles/modern.html">WORKSHOPS</a></li> -->
+                      </ul>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br><br>
+    
+    <div class="row mb-3 text-center">
+        <div class="col-md-8 themed-grid-col">
+          <div class="pb-3">
+            <div class="card">
+                <img class="" src="../assets/img/blog/sub/sunshine 2403.jpg" style="width:100%" alt="description">
+      
+              <div class="card-body">
+                <h5 class="card-title">Visitation by Shine Solar Training at Suame Technical Institute. line</h5>
+                <p class="card-text">Suame Technical Institute recently had the honor of hosting a visit from Shine Solar Training, a leading organization focused on promoting renewable energy education and training</p>
+                <div class="more-link"><a href="blogflie/Visitation by Shine Solar Training at Suame Technical Institute..html">Read More></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 themed-grid-col">
+                <div class="card">
+                    <img class="" src="../assets/img/blog/sub/grand durb 242.jpg" style="width:100%" alt="description">
+  
+          <div class="card-body">
+            <h5 class="card-title">Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute: “Career Awareness in the TVET Space, A Tool for National Development</h5>
+            <p class="card-text">Suame Technical Institute hosted a significant event as part of its 2024 SRC Week Celebration—a grand durbar under the theme “Career Awareness in the TVET Space, A Tool for National Development.</p>
+            <div class="more-link"><a href="blogflie/Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute.html">Read More></a></div>
+          </div>
+        </div>
+            </div>
+            <div class="col-md-6 themed-grid-col">
+                <div class="card">
+                    <img class="" src="../assets/img/blog/sub/cultural 07.jpg" style="width:100%" alt="description">
+  
+          <div class="card-body">
+            <h5 class="card-title">2024 SRC Week Celebration (TRADITIONAL WEAR DAY)</h5>
+            <p class="card-text">Traditional Wear Day: A Showcase of Culture Traditional Wear Day is a day when students proudly dress in garments that reflect their cultural backgrounds.</p>
+            <div class="more-link"><a href="blogflie/2024 SRC Week Celebration (TRADITIONAL WEAR DAY) at Suame Technical Institute.html">Read More></a></div>
+          </div>
+        </div>
+            </div>
+            <div class="col-md-6 themed-grid-col">
+                <div class="card">
+                  <img class="" src="../assets/img/blog/sub/donation pad 2403.jpg" style="width:100%" alt="description">
+          
+                  <div class="card-body">
+                    <h5 class="card-title"> Mr. Aryeetey’s Donation of Sanitary Pads to Suame Technical Institute on World Menstrual Hygiene Day</h5>
+                    <p class="card-text"> World Menstrual Hygiene Day, celebrated annually on May 28th, is a day dedicated to raising awareness about the importance of menstrual health and hygiene for women and girls worldwide</p>
+                    <div class="more-link"><a href="blogflie/Mr. Aryeetey’s Donation of Sanitary Pads to Suame Technical Institute on World Menstrual Hygiene Day .html">Read More></a></div>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+        
+
+        <div class="col-md-4 themed-grid-col">
+            <div class="card">
+              <img class="" src="../assets/img/blog/sub/prefect voting 241.jpg" style="width:100%" alt="description">
+      
+              <div class="card-body">
+                <h5 class="card-title">Election of New Prefect for the 2024/2025 Academic Year at Suame Technical Institute</h5>
+                <p class="card-text">As the 2024/2025 academic year approaches, Suame Technical Institute is gearing up for the crucial election of a new prefect, a role that holds significant responsibility and prestige within our school community.</p>
+                <div class="more-link"><a href="blogflie/Election of New Prefect for the 2024_2025 Academic Year at Suame Technical Institute.html">Read More></a></div>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 themed-grid-col">
+                      <div class="card">
+                <img class="" src="../assets/img/blog/sub/health walk 243.jpg" style="width:100%" alt="description">
+        
+                <div class="card-body">
+                  <h5 class="card-title">The 2024 SRC Week Celebration Kicks Off with a Vibrant Float at Suame Technical Institute</h5>
+                  <p class="card-text">The much-anticipated 2024 SRC Week Celebration at Suame Technical Institute commenced with a lively and colorful float through the streets surrounding the campus.</p>
+                  <div class="more-link"><a href="blogflie/The 2024 SRC Week Celebration Kicks Off with a Vibrant Float at Suame Technical Institute.html">Read More></a></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+                      <div class="card">
+                <img class="" src="../assets/img/blog/sub/handing over 241.jpg" style="width:100%" alt="description">
+        
+                <div class="card-body">
+                  <h5 class="card-title">Prefect Handing Over Ceremony for the 2024/2025 Academic Year at Suame Technical Institute
+                </h5>
+                  <p class="card-text">The prefect handing over ceremony is a significant event at Suame Technical Institute, marking the transition of leadership and the continuation of student governance.</p>
+                  <div class="more-link"><a href="blogflie/Prefect Handing Over Ceremony for the 2024_2025 Academic Year at Suame Technical Institute.html">Read More></a></div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+            <div class="card">
+              <img class="" src="../assets/img/blog/sub/in-house fire safety training.jpg" style="width:100%" alt="description">
+      
+              <div class="card-body">
+                <h5 class="card-title">Fire Safety Training for Staff and Security Personnel at Suame Technical Institute</h5>
+                <p class="card-text">Safety is a top priority at Suame Technical Institute, and with good reason. Fire hazards can pose significant risks in any institution, particularly one with numerous students, staff, and valuable equipment</p>
+                <div class="more-link"><a href="blogflie/Fire Safety Training for Staff and Security Personnel at Suame Technical Institute.html">Read More></a></div>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 themed-grid-col">
+                      <div class="card">
+                <img class="" src="../assets/img/blog/sub/de 247.jpg" style="width:100%" alt="description">
+        
+                <div class="card-body">
+                  <h5 class="card-title">Exploring Ghana's Future: 2024 SRC Week Debate on "Ghana’s Industrialization Depends on TVET Education</h5>
+                  <p class="card-text">The 2024 SRC Week at Suame Technical Institute featured a series of impactful events, among which the debate competition was a standout.</p>
+                  <div class="more-link"><a href="blogflie/2024 SRC Week Debate on Ghana’s Industrialization Depends on TVET Education.html">Read More></a></div>
+                </div>
+              </div>
+        </div>
+    
+      </div>
+<!-- Footer -->
+<br>
+ <!-- Footer -->
+<div id="footer" style="background-color:black ;">
+  <br> 
+<div class="w3-container">
+  <div class="w3-row">
+    <div class="w3-container w3-third">
+      <h5 class=" subtitle text-center">General</h5>
+      <p class="text-center"><a class="nav-link" href="../index.html">Home</a></p>
+      <p class="text-center"><a class="nav-link" href="../about.html">About</a></p>
+      <p class="text-center"><a class="nav-link" href="../contact.html">Contact</a></p>
+      <p class="text-center"><a class="nav-link" href="../course.html">Courese</a></p>
+      <p class="text-center"><a class="nav-link" href="../enrollment.html">Enrollment</a></p>
+    </div>
+    <div class="w3-container w3-third">
+      <h5 class=" subtitle text-center">Check Out</h5>
+      <p class="text-center"><a class="nav-link" href="../more/staffsfiles/bod.html">Board of Directors</a></p>
+      <p class="text-center"><a class="nav-link" href="../more/staff.html">Staffs</a></p>
+      <p class="text-center"><a class="nav-link" href="../more/staffsfiles/src.html">SRC Executives</a></p>
+      <!-- <p class="text-center"><a class="nav-link" href="../more/gallery.html">Gallery</a></p> -->
+      <!-- <p class="text-center"><a class="nav-link" href="../more/blog.html">Current News</a></p> -->
+    </div>
+    <div class="w3-container w3-third">
+      <h5 class=" subtitle text-center">More</h5>
+      <!-- <p class="text-center"><a class="nav-link" href="../about.html#featured-3">Features</a></p> -->
+      <p class="text-center"><a class="nav-link" href="../more/staffsfiles/affiliation.html">Affiliations</a></p>
+      <!-- <p class="text-center"><a class="nav-link" href="../more/staffsfiles/modern.html">Modern Workshops</a></p> -->
+      <p class="text-center"><a class="nav-link" href="../more/staffsfiles/Studentbody.html">Students Body</a></p>
+      <p class="text-center"><a class="nav-link" href="../index.html"></a></p>
+    </div>
+  </div>
+</div>
+    <!-- CONTACT SECTION END-->
+        &copy Su.T.U.com | All Rights Reserved |  <a href="https://advancetechnologyghana.00webhostapp.com" style="color: #fff" target="_blank">Design by : A-Techgh</a>
+  </div>
+
+<!-- Bootstrap JS -->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<!--  Core Bootstrap Script -->
+<script src="../assets/js/bootstrap.js"></script>
+<!--  Flexslider Scripts --> 
+     <script src="../assets/js/jquery.flexslider.js"></script>
+ <!--  Scrolling Reveal Script -->
+<script src="../assets/js/scrollReveal.js"></script>
+<!--  Scroll Scripts --> 
+<script src="../assets/js/jquery.easing.min.js"></script>
+<!--  Custom Scripts --> 
+     <script src="assets/js/custom.js"></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+
+<!-- Swiper Initialization -->
+<!-- Custom JavaScript for Slideshow -->
+<script>
+    let currentIndex = 0;
+
+    // Change slide automatically every 5 seconds
+    const autoSlideInterval = 10000;
+    
+    function changeSlide(direction = -1) {
+        const slides = document.querySelectorAll('.slide');
+        const slidesWrapper = document.querySelector('.slides-wrapper');
+        const totalSlides = slides.length;
+    
+        currentIndex += direction;
+    
+        // Loop slides
+        if (currentIndex >= totalSlides) {
+            currentIndex = 0;
+        } else if (currentIndex < 0) {
+            currentIndex = totalSlides - 1;
+        }
+    
+        const translateX = -currentIndex * 100;
+        slidesWrapper.style.transform = `translateX(${translateX}%)`;
+    }
+    
+    // Set up automatic slide change
+    setInterval(() => {
+        changeSlide();
+    }, autoSlideInterval);
+    
+    // Optional: Reset the interval when a navigation button is clicked
+    document.querySelector('.prev').addEventListener('click', () => {
+        changeSlide(-1);
+        resetAutoSlide();
+    });
+    
+    document.querySelector('.next').addEventListener('click', () => {
+        changeSlide(1);
+        resetAutoSlide();
+    });
+    
+    function resetAutoSlide() {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            changeSlide();
+        }, autoSlideInterval);
+    }
+    
+    // Initialize autoSlide variable for resetting
+    let autoSlide = setInterval(() => {
+        changeSlide();
+    }, autoSlideInterval);
+
+</script>
+</body>
+</html>

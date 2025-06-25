@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Meta Tags for SEO -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Welcome to Suame Technical Institute, a leading institution in technical education. We offer innovative programs in engineering, IT, and vocational studies.">
+<meta name="author" content="Suame Technical Institute">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Suame Technical Institute (Su.T.I)">
+<meta property="og:description" content="Explore Suame Technical Institute's innovative programs and join a community of future leaders in technical education.">
+<meta property="og:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+<meta property="og:url" content="https://www.suti.edu.gh">
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Suame Technical Institute (Su.T.I)">
+<meta name="twitter:description" content="Suame Technical Institute offers a wide range of programs to empower students in their careers. Join us for technical excellence.">
+<meta name="twitter:image" content="https://www.suti.edu.gh/assets/img/logo.jpg">
+-->
+<!-- Social Media Links 
+<meta name="twitter:site" content="@suametech">
+<meta name="twitter:creator" content="@suametech">
+ -->   
+<!-- Title of the Page -->
+<title>Suame Technical Institute | Empowering Future Leaders</title>
+
+<!-- Structured Data for SEO (Schema Markup) 
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "EducationalOccupationalOrganization",
+        "name": "Suame Technical Institute",
+        "url": "https://www.suti.edu.gh",
+        "logo": "https://www.suti.edu.gh/assets/img/logo.jpg",
+        "sameAs": [
+            "https://www.instagram.com/suametechnicalinstitute_",
+            "https://www.facebook.com/suameTech",
+            "https://www.tiktok.com/@suametechnicalinstitute?lang=en",
+            "https://www.youtube.com/@suametechnicalinstitute"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+233-XXX-XXXX",
+            "contactType": "Customer Service",
+            "areaServed": "GH",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Your Street Address",
+            "addressLocality": "Suame",
+            "addressRegion": "Ashanti",
+            "postalCode": "0000",
+            "addressCountry": "Ghana"
+        }
+    }
+</script>
+-->
+<!-- Page Speed Optimization -->
+<link rel="stylesheet" href="styles.min.css"> <!-- Minified CSS -->
+<script src="script.min.js" defer></script> <!-- Minified JS with defer attribute -->
+<link rel="preload" href="https://www.suti.edu.gh/assets/img/logo.jpg" as="image">
+
+<!-- Mobile Optimization -->
+<meta name="theme-color" content="#fdc93b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- Sitemap -->
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/img/logo/icon.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../../assets/img/logo/icon.png">
+    
+    <!-- Bootstrap Core CSS for Responsive Layout -->
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Font Awesome CSS for Icons -->
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Flexslider CSS for Slideshows (if used) -->
+    <link href="V/assets/css/flexslider.css" rel="stylesheet" />
+
+    <!-- Custom Stylesheet for Additional Customization -->
+    <link href="../../assets/css/style.css" rel="stylesheet" />
+<link href="../../assets/css/w3.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <style>
+         /* General Styling */
+         body {
+            font-family: Arial, sans-serif; 
+        }
+        .header-line text-uppercase {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content-section {
+            margin-top: 40px;
+        }
+        .section-title {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .testimonial-text {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        /* Styling for bullet points */
+        .list-unstyled .bullet {
+            margin-right: 10px;
+            font-size: 1.5em;
+            color: #007bff;
+        }
+        /* Media Queries for responsiveness */
+        @media (max-width: 768px) {
+            .intro-text {
+                text-align: center;
+            }
+            .intro-image {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        .slideshow-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+        .slides-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (Responsive & Interactive) -->
+    <div class="navbar custom-shadow navbar-inverse navbar-fixed-top" id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- Toggle Button for Mobile View (Hamburger Menu) -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <!-- Logo Section -->
+                 <a class="navbar-brand" href="#"><img class="logo-custom" src="../../assets/img/logo/logo-1.jpg" alt="SuT.I Logo" /></a>
+            </div>
+            
+            <!-- Collapsible Menu for Navigation Links -->
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Home Link -->
+                    <li><a class="nav-link" href="../../index.html">HOME</a></li>
+                    <!-- About Us Page Link -->
+                    <li><a class="nav-link" href="../../about.html">ABOUT US</a></li>
+                    <!-- Contact Section Link -->
+                    <li><a class="nav-link" href="../../contact.html">CONTACT</a></li>
+                    <!-- Courses Section Link -->
+                    <li><a class="nav-link" href="../../course.html">COURSES</a></li>
+                    <!-- Enrollment Section Link -->
+                    <li><a class="nav-link" href="../../enrollment.html">ENROLLMENT</a></li>
+                    <!-- Dropdown Menu for Additional Links -->
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
+                        <ul class="dropdown-menu">
+                            <!-- Gallery Page Link -->
+                            <!-- <li><a class="dropdown-item" href="../more/gallery.html">GALLERY</a></li> -->
+                            <!-- Staff Information Link -->
+                            <li><a class="dropdown-item" href="../staff.html">STAFF</a></li>
+                            <!-- News Section Link -->
+                            <li><a class="dropdown-item" href="../blog.html">NEWS</a></li>
+                             <!-- Gallery Page Link -->
+                             <li><a class="dropdown-item" href="../staffsfiles/bod.html">BOARD OF DIRECTORS</a></li>
+                             <!-- Staff Information Link -->
+                             <!-- News Section Link -->
+                             <li><a class="dropdown-item" href="../staffsfiles/src.html">SRC COMMITTEE</a></li>
+                             <li><a class="dropdown-item" href="../staffsfiles/Studentbody.html">SCHOOL GALLERY</a></li>
+                             <!-- News Section Link -->
+                             <!-- <li><a class="dropdown-item" href="../more/staffsfiles/modern.html">WORKSHOPS</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br><br>
+    <main class="container">
+      <h1 class="display- fst-italic">Exploring Ghana's Future: 2024 SRC Week Debate on "Ghana’s Industrialization Depends on TVET Education"</h1>
+    <div class="row g-5">
+    <div class="col-md-8">
+      <article class="blog-post">
+        <div class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+          <div class="card">
+            <img class="" src="../../assets/img/blog/2024 SRC Week Celebration Debate held at Suame Technical Institute.jpg" style="width:100%" alt="description">
+          </div>
+        </div>
+      </div>
+      </article>
+
+
+    </div>
+
+    <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+           <!-- Posts -->
+    <div class="w3-card w3-margin">
+      <div class="w3-container w3-padding">
+        <h4>Popular Posts</h4>
+      </div>
+      <ul class="w3-ul w3-hoverable w3-white">
+        <hr>
+        <li class="w3-padding-16">
+          <div class="row mb-2">
+            <div class="col-md-4 themed-grid-col">
+                <img  src="../../assets/img/blog/sub/donation pad 2404.jpg" alt="Image" class="w3-left " style="width:100px;">
+            </div>
+            <div class="col-md-8 themed-grid-col">
+                <a href="Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute.html" class="stretched-link">
+                <p class="card-text mb-auto">Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute</p>
+              </a>
+            </div>
+          </div>
+      </li>
+      <hr>
+      <li class="w3-padding-16">
+          <div class="row mb-2">
+            <div class="col-md-4 themed-grid-col">
+                <img  src="../../assets/img/blog/sub/prefect voting 241.jpg" alt="Image" class="w3-left " style="width:100px;">
+            </div>
+            <div class="col-md-8 themed-grid-col">
+                <a href="Election of New Prefect for the 2024_2025 Academic Year at Suame Technical Institute.html" class="stretched-link">
+                <p class="card-text mb-auto">Election of New Prefect for the 2024_2025 Academic Year at Suame Technical Institute</p>
+              </a>
+            </div>
+          </div>
+      </li>
+      <hr>
+      <li class="w3-padding-16">
+          <div class="row mb-2">
+            <div class="col-md-4 themed-grid-col">
+                <img  src="../../assets/img/blog/sub/in-house fire safety training.jpg" alt="Image" class="w3-left " style="width:100px;">
+            </div>
+            <div class="col-md-8 themed-grid-col">
+                <a href="Fire Safety Training for Staff and Security Personnel at Suame Technical Institute.html" class="stretched-link">
+                <p class="card-text mb-auto">Fire Safety Training for Staff and Security Personnel at Suame Technical Institute</p>
+              </a>
+            </div>
+          </div>
+      </li>
+      <li class="w3-padding-16">
+        <div class="row mb-2">
+          <div class="col-md-4 themed-grid-col">
+              <img  src="../../assets/img/blog/sub/grand durb 241.jpg" alt="Image" class="w3-left " style="width:100px;">
+          </div>
+          <div class="col-md-8 themed-grid-col">
+              <a href="Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute.html" class="stretched-link">
+              <p class="card-text mb-auto">Grand Durbar for the 2024 SRC Week Celebration at Suame Technical Institute</p>
+            </a>
+          </div>
+        </div>
+    </li>
+      </ul>
+    </div>
+    <hr> 
+      </div>
+      </div>
+      <br>
+      <br>
+  <article class="blog-post">
+    <p class="blog-post-meta">June, 2024</p>
+<div class="col-md-4 themed-grid-col">    <p>The 2024 SRC Week at Suame Technical Institute featured a series of impactful events, among which the debate competition was a standout. This year’s topic, “Ghana’s Industrialization Depends on TVET Education,” ignited passionate discussions among students. As a technical institute, Suame is deeply invested in Technical and Vocational Education and Training (TVET), making this topic both relevant and thought-provoking for the participants and audience alike. The debate provided a platform for students to analyze Ghana's future industrial growth and discuss the pivotal role of TVET in achieving national development goals</p>
+    <hr>
+    <p>Understanding the Topic The debate topic highlighted the significance of TVET education in driving industrialization in Ghana. TVET, with its focus on equipping students with hands-on skills and technical knowledge, is often seen as a crucial element in building a skilled workforce capable of supporting industries. Industrialization requires not only theoretical knowledge but also practical skills that TVET offers. With Ghana’s goal to become a more self-reliant economy, the question of whether industrialization depends on the promotion and advancement of TVET was timely and relevant.</p>
+    <p>Debate Structure and Format The debate featured two teams: one supporting the notion that TVET education is essential for Ghana’s industrialization and the other opposing it, suggesting that other factors like policy reforms, investment in technology, and infrastructure also play crucial roles. Each team was given time to present opening statements, supporting arguments, and rebuttals, followed by closing remarks. The debate was moderated by a faculty member, ensuring that each team adhered to the rules and presented their arguments in a respectful and structured manner.
+    </p></div>
+<div class="col-md-4 themed-grid-col">   <p>Arguments from the Affirmative Side The team supporting the motion argued that Ghana's industrialization heavily relies on a skilled workforce, which TVET provides. They presented key points, including:
+<br>
+        1. Workforce Development: TVET produces technicians, artisans, and engineers who directly contribute to industrial processes. Without these skills, industries would struggle to operate efficiently.
+        
+     <br>    
+        2. Reduction in Unemployment: By equipping students with employable skills, TVET helps reduce youth unemployment, fostering economic growth that is essential for industrial development.
+        
+        <br>
+        3. Economic Self-Reliance: With TVET-trained graduates, Ghana can reduce its dependency on foreign expertise, allowing the country to become more self-sufficient.
+        <br>
+        
+        4. Innovation and Entrepreneurship: TVET encourages innovation and equips students to start small-scale industries, which can grow into large enterprises, supporting Ghana’s industrialization goals.
+        
+        <br>
+        
+        Arguments from the Opposition Side The opposing team presented a counter-argument, stating that while TVET is essential, other factors are equally, if not more, important. They argued:
+        <br>
+        1. Need for Policy and Infrastructure: They highlighted the importance of governmental policies and infrastructure development to support industrialization. Without a conducive environment, even skilled labor would not be enough to drive industrialization.
+        <br>
+        
+        2. Investment in Technology and Innovation: Industrialization requires advanced technology, which cannot be achieved solely through TVET. Research and development, they argued, should be prioritized alongside TVET.
+        
+        <br>
+        3. Comprehensive Education System: The opposition argued that a well-rounded education system, including sciences, economics, and engineering, is necessary to create leaders and innovators who can drive industrialization.
+        
+        <br>
+        4. Attraction of Foreign Investment: For Ghana to industrialize, attracting foreign investment is key, and TVET alone may not address the needs of investors looking for stable infrastructure and policy frameworks.
+        </p></div>
+<div class="col-md-4 themed-grid-col"><p>       
+    Judges and Scoring Criteria The debate was evaluated by a panel of judges consisting of faculty members and SRC executives, who assessed participants based on clarity, depth of research, persuasiveness, and teamwork. The judges were impressed by the students’ arguments, the breadth of knowledge displayed, and the quality of their public speaking. The judges appreciated how the affirmative side provided data on employment and economic growth from TVET initiatives, while the opposition brought up insightful points about policy and technology's roles.
+<br>
+    Audience Engagement and Reflection The debate drew a large audience of students and faculty members, all eager to hear the perspectives on this critical issue. The audience was highly engaged, showing support for well-argued points and participating in a question-and-answer session that followed the main debate. Many students were inspired by the arguments presented, sparking further discussions about the role of TVET in their own educational journey and how it might impact their future careers. The debate allowed the Suame Technical Institute community to reflect on how their skills contribute to Ghana’s industrial goals.
+    
+</p>
+<P>
+    Participant Insights and Takeaways Both teams, regardless of the outcome, expressed gratitude for the opportunity to delve into such a significant topic. The debate helped them develop a deeper understanding of the importance of TVET education, as well as the broader factors influencing industrial growth. Participants gained valuable experience in research, public speaking, and teamwork, skills that will serve them well in both academic and professional settings. The debate was not only a learning experience but also a chance to envision their role in Ghana’s future development.
+</P>
+<p>
+    Conclusion The 2024 SRC Week debate on “Ghana’s Industrialization Depends on TVET Education” was an engaging and educational experience, underscoring the importance of TVET in the context of national development. This event highlighted Suame Technical Institute’s commitment to fostering critical thinking and active engagement with real-world issues. As Ghana pursues its industrialization goals, discussions like this remind students of their role in shaping the nation’s future. Through initiatives like the SRC Week debate, Suame Technical Institute continues to nurture informed, skilled, and thoughtful leaders who are prepared to contribute to Ghana’s economic transformation.</p></div>
+
+ 
+
+
+  </article>
+  </div>
+
+</main>
+
+<br>
+ <!-- Footer -->
+<div id="footer" style="background-color:black ;">
+    <br> 
+  <div class="w3-container">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class=" subtitle text-center">General</h5>
+        <p class="text-center"><a class="nav-link" href="../../index.html">Home</a></p>
+        <p class="text-center"><a class="nav-link" href="../about.html">About</a></p>
+        <p class="text-center"><a class="nav-link" href="../../contact.html">Contact</a></p>
+        <p class="text-center"><a class="nav-link" href="../../course.html">Courese</a></p>
+        <p class="text-center"><a class="nav-link" href="../../enrollment.html">Enrollment</a></p>
+      </div>
+      <div class="w3-container w3-third">
+        <h5 class=" subtitle text-center">Check Out</h5>
+        <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/bod.html">Board of Directors</a></p>
+        <p class="text-center"><a class="nav-link" href="../../more/staff.html">Staffs</a></p>
+        <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/src.html">SRC Executives</a></p>
+        <!-- <p class="text-center"><a class="nav-link" href="../../more/gallery.html">Gallery</a></p> -->
+        <!-- <p class="text-center"><a class="nav-link" href="../../more/blog.html">Current News</a></p> -->
+      </div>
+      <div class="w3-container w3-third">
+        <h5 class=" subtitle text-center">More</h5>
+        <!-- <p class="text-center"><a class="nav-link" href="../../about.html#featured-3">Features</a></p> -->
+        <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/affiliation.html">Affiliations</a></p>
+        <!-- <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/modern.html">Modern Workshops</a></p> -->
+        <p class="text-center"><a class="nav-link" href="../../more/staffsfiles/Studentbody.html">Students Body</a></p>
+        <p class="text-center"><a class="nav-link" href="../../index.html"></a></p>
+      </div>
+    </div>
+  </div>
+    <!-- CONTACT SECTION END-->
+        &copy Su.T.U.com | All Rights Reserved |  <a href="https://advancetechnologyghana.00webhostapp.com" style="color: #fff" target="_blank">Design by : A-Techgh</a>
+  </div>
+
+  
+<!-- Bootstrap JS -->
+<script src="../../assets/js/popper.min.js"></script>
+<script src="../../assets/js/jquery-1.10.2.js"></script>
+<!--  Core Bootstrap Script -->
+<script src="../../assets/js/bootstrap.js"></script>
+<!--  Flexslider Scripts --> 
+     <script src="/assets/js/jquery.flexslider.js"></script>
+ <!--  Scrolling Reveal Script -->
+<script src="../../assets/js/scrollReveal.js"></script>
+<!--  Scroll Scripts --> 
+<script src="../../assets/js/jquery.easing.min.js"></script>
+<!--  Custom Scripts --> 
+     <script src="../../assets/js/custom.js"></script>
+<script src="../../assets/js/swiper-bundle.min.js"></script>
+
+<!-- Swiper Initialization -->
+<!-- Custom JavaScript for Slideshow -->
+<script>
+    let currentIndex = 0;
+
+    // Change slide automatically every 5 seconds
+    const autoSlideInterval = 10000;
+    
+    function changeSlide(direction = -1) {
+        const slides = document.querySelectorAll('.slide');
+        const slidesWrapper = document.querySelector('.slides-wrapper');
+        const totalSlides = slides.length;
+    
+        currentIndex += direction;
+    
+        // Loop slides
+        if (currentIndex >= totalSlides) {
+            currentIndex = 0;
+        } else if (currentIndex < 0) {
+            currentIndex = totalSlides - 1;
+        }
+    
+        const translateX = -currentIndex * 100;
+        slidesWrapper.style.transform = `translateX(${translateX}%)`;
+    }
+    
+    // Set up automatic slide change
+    setInterval(() => {
+        changeSlide();
+    }, autoSlideInterval);
+    
+    // Optional: Reset the interval when a navigation button is clicked
+    document.querySelector('.prev').addEventListener('click', () => {
+        changeSlide(-1);
+        resetAutoSlide();
+    });
+    
+    document.querySelector('.next').addEventListener('click', () => {
+        changeSlide(1);
+        resetAutoSlide();
+    });
+    
+    function resetAutoSlide() {
+        clearInterval(autoSlide);
+        autoSlide = setInterval(() => {
+            changeSlide();
+        }, autoSlideInterval);
+    }
+    
+    // Initialize autoSlide variable for resetting
+    let autoSlide = setInterval(() => {
+        changeSlide();
+    }, autoSlideInterval);
+
+</script>
+</body>
+</html>

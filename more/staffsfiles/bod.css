@@ -1,0 +1,28 @@
+.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    margin-top: 10px;
+    background-color:transparent;
+    margin-top: 10px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding-top: 2px;
+    padding-left: 10px;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.btn:hover{
+    background-color: #fdc93b;
+    color: black;
+}
+
+.filterDiv {
+    display: none; /* Hidden by default */
+  }
+  .edit{
+    top: 150px;
+  }
